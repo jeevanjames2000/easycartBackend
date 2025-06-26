@@ -8,7 +8,7 @@ const OrderRoutes = require("./routes/orderRoutes");
 const connectDB = require("./config/db");
 app.use(
   cors({
-    origin: ["http://localhost:3001"],
+    origin: ["http://localhost:3001","https://easycart-roan.vercel.app"],
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     allowedHeaders:
       "Origin, X-Requested-With, Content-Type, Accept, Authorization",
